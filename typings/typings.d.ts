@@ -9,18 +9,6 @@ declare module './index.less' {
   export default styles;
 }
 
-declare const routeBaseName: string;
-
-declare const version: string;
-
-declare const projectName: string;
-
-declare const providerConfig: {
-  prefixCls: string;
-  iconPrefixCls: string;
-  input: React.InputHTMLAttributes<HTMLInputElement>;
-  [key: string]: any;
-};
 interface Window {
   __INJECTED_PUBLIC_PATH_BY_QIANKUN__?: string;
   __POWERED_BY_QIANKUN__?: string | boolean;
