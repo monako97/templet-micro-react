@@ -8,10 +8,22 @@ declare module './index.less' {
 
   export default styles;
 }
-
+declare module 'moment' {
+  import { Dayjs } from 'dayjs';
+  namespace moment {
+    type Moment = Dayjs;
+  }
+  export = moment;
+  export as namespace moment;
+}
 interface Window {
   __INJECTED_PUBLIC_PATH_BY_QIANKUN__?: string;
   __POWERED_BY_QIANKUN__?: string | boolean;
+  primaryApp?: Record<string, any>;
+  rootInstance: {
+    render(children: React.ReactChild | Iterable<React.ReactNode>): void;
+    unmount(): void;
+  };
 }
 
 interface PureComponentProps {
