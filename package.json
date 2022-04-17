@@ -1,6 +1,6 @@
 {
   "name": "plugin-single-spa-template",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "微应用模版",
   "main": "index.js",
   "scripts": {},
