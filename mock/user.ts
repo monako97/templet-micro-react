@@ -19,7 +19,7 @@ const conf: MockConfiguration = {
       status: 200,
       message: '请求成功',
       result: {
-        address: '湖北省,黄石市,大冶市,东风路街道',
+        address: '浙江省,杭州市,滨江区,浦沿街道',
         avatar: '',
         birthday: 853718400000,
         create_time: 1576795086000,
@@ -39,4 +39,6 @@ const conf: MockConfiguration = {
   },
 };
 
-export default conf;
+module.exports = {
+  default: conf,
+};
