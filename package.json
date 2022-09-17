@@ -1,6 +1,6 @@
 {
   "name": "template-single-spa",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "微应用模版",
   "main": "index.js",
   "scripts": {},
