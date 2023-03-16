@@ -9,6 +9,7 @@ const conf: MockConfiguration = {
     const resp = {
       status: 200,
       message: '上传成功',
+      success: true,
       result: 'data:image/jpeg;base64,' + strBase64,
     };
 
@@ -18,6 +19,7 @@ const conf: MockConfiguration = {
     const resp = {
       status: 200,
       message: '请求成功',
+      success: true,
       result: {
         address: '浙江省,杭州市,滨江区,浦沿街道',
         avatar: '',
