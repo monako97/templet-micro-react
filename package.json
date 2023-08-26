@@ -1,6 +1,6 @@
 {
-  "name": "template-single-spa",
-  "version": "1.3.6",
+  "name": "templet-micro-react",
+  "version": "2.0.0",
   "description": "微应用模版",
   "main": "index.js",
   "scripts": {},
@@ -9,13 +9,13 @@
   },
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "shared-store-object": "^1.0.8"
+  },
   "files": [
     "config",
-    "mock",
     "src",
     "typings",
-    "LICENSE",
     "tsconfig.json"
   ],
   "resolutions": {

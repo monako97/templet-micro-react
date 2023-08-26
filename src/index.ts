@@ -1,18 +1,11 @@
-// import { persistence } from 'PackageNameByCommon';
-// import { localizable, menu, persistentKey } from 'PackageNameByCore';
-// import { account, accountPersistenceKey, global, globalPersistenceKey } from '@/store';
+import '@/global.less';
 
-/** 数据持久化 */
-// window.addEventListener('unload', function () {
-//   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-//   const obj: Record<string, any> = {
-//     [accountPersistenceKey]: account.info,
-//     [globalPersistenceKey]: global.isLogin,
-//   };
-
-//   for (const key in obj) {
-//     if (Object.prototype.hasOwnProperty.call(obj, key)) {
-//       persistence.set(key, obj[key]);
-//     }
-//   }
-// });
+// 如果不需要在生命周期中操作, 可以将其删除然后重新运行
+// 微应用被挂载
+export async function mount(props: Record<string, unknown>) {
+  console.log("mount", props);
+}
+// 微应用被卸载
+export async function unmount(props: Record<string, unknown>) {
+  console.log("unmount", props);
+}
