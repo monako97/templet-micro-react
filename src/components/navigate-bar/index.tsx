@@ -1,6 +1,6 @@
 import * as styles from './index.less';
 import React from 'react';
-import localizable from '@app/locales';
+import localizable from 'app:locales';
 import { Link, useLocation } from '@moneko/react';
 
 function createHash() {

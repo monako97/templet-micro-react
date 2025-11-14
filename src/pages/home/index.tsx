@@ -1,5 +1,5 @@
 import React, { type FC } from 'react';
-import locales from '@app/locales';
+import locales from 'app:locales';
 import { useOutlet } from '@moneko/react';
 
 const Home: FC = () => {
